@@ -17,7 +17,6 @@ try:
         GWR_model = pickle.load(file)
 except Exception as e:
     st.error(f"Error loading the model: {e}")
-)
 
 #sidebar for navigation
 with st.sidebar:
