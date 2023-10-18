@@ -1,4 +1,6 @@
 streamlit
 streamlit_option_menu
 protobuf
-tensorflow
+scikit-learn
+numpy
+pickle-mixin
