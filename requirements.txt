@@ -2,4 +2,4 @@ streamlit
 streamlit_option_menu
 protobuf
 gunicorn
-tensorflow
+keras
