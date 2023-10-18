@@ -27,7 +27,7 @@ with st.sidebar:
 if (selected == 'Run The Model'):
     # page title
     st.title('Taita Taveta Groundwater\n Recharge Predictor Model')
-    print('Must contain decimal(.)')
+    st.write('<h6>Must contain decimal(.)</h6>')
     
     Depth = st.text_input('Depth')
     WS = st.text_input('WRL/SWL')
