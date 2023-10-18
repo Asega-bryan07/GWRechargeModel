@@ -12,6 +12,7 @@ from streamlit_option_menu import option_menu
 
 
 # load the saved model
+GWR_model = pickle.load(open('Potential_GWR_model.sav', 'rb'))
 try:
     with open('Potential_GWR_model.sav', 'rb') as file:
         GWR_model = pickle.load(file)
