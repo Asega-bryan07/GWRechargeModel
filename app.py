@@ -9,8 +9,8 @@ Created on Tue Oct 17 12:55:18 2023
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-import tensorflow
-import keras
+from tensorflow import keras
+from tensorflow.keras import layers
 
 # load the saved model
 GWR_model = pickle.load(open('Potential_GWR_model.sav', 'rb'))
