@@ -3,3 +3,7 @@ uvicorn
 pydantic
 scikit-learn
 numpy
+tensorflow
+streamlit as st
+streamlit_option_menu
+protobuf
