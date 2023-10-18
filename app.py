@@ -28,7 +28,7 @@ if (selected == 'Run The Model'):
     # page title
     st.title('Taita-Taveta Groundwater Recharge Predictor Model')
     st.markdown('<hr><br><h6>Input Field Must Contain Decimal (.)</h6>', unsafe_allow_html=True)
-    st.markdown('<style>body { background-color: #FEEFC3; },h6 { color: red; }</style>', unsafe_allow_html=True)
+    st.markdown('<style>body { background-color: lightblue; },h6 { color: red; }</style>', unsafe_allow_html=True)
     
     Depth = st.text_input('Depth')
     WS = st.text_input('WRL/SWL')
