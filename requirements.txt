@@ -4,6 +4,6 @@ pydantic
 scikit-learn
 numpy
 tensorflow
-streamlit as st
+streamlit
 streamlit_option_menu
 protobuf
