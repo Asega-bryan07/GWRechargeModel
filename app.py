@@ -12,7 +12,7 @@ from streamlit_option_menu import option_menu
 
 
 # load the saved model
-GWR_model = pickle.load(open('C:/Users/HERLAB26/Documents/Desktop/DKUT/Project/GWR-model/Potential_GWR_model.sav', 'rb'))
+GWR_model = pickle.load(open('Potential_GWR_model.sav', 'rb'))
 
 #sidebar for navigation
 with st.sidebar:
