@@ -26,7 +26,7 @@ with st.sidebar:
                            default_index=0)
 if (selected == 'Run The Model'):
     # page title
-    st.title('Taita Taveta Groundwater Recharge Predictor')
+    st.title('Taita Taveta Groundwater\n Recharge Predictor Model')
     print('Must contain decimal(.)')
     
     Depth = st.text_input('Depth')
