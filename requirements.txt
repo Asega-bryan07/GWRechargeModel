@@ -4,4 +4,3 @@ protobuf
 scikit-learn
 numpy
 pickle-mixin
-tensorflow
